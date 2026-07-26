@@ -1,0 +1,154 @@
+[
+    {
+        "id": "100000",
+        "name": "Original Memory: Wolf - Head"
+    },
+    {
+        "id": "101000",
+        "name": "Original Memory: Wolf - Body"
+    },
+    {
+        "id": "102000",
+        "name": "Original Memory: Wolf - Prosthetic Arm"
+    },
+    {
+        "id": "103000",
+        "name": "Original Memory: Wolf - Legs"
+    },
+    {
+        "id": "112000",
+        "name": "Original Memory: Wolf - Uncut Arm"
+    },
+    {
+        "id": "122000",
+        "name": "Original Memory: Wolf - Armless"
+    },
+    {
+        "id": "131000",
+        "name": "Original Memory: Wolf - Body - No Mortal Blade"
+    },
+    {
+        "id": "141000",
+        "name": "Original Memory: Wolf - Body - No Kusabimaru No Mortal Blade"
+    },
+    {
+        "id": "153000",
+        "name": "Original Memory: Wolf - Barefoot"
+    },
+    {
+        "id": "162000",
+        "name": "Original Memory: Wolf - High Resolution Prosthetic"
+    },
+    {
+        "id": "200000",
+        "name": "Immortal Severance Cutscene Head"
+    },
+    {
+        "id": "201000",
+        "name": "Immortal Severance Cutscene Body"
+    },
+    {
+        "id": "202000",
+        "name": "Immortal Severance Cutscene Arm"
+    },
+    {
+        "id": "203000",
+        "name": "Immortal Severance Cutscene Legs"
+    },
+    {
+        "id": "300000",
+        "name": "Another's Memory: Shura - Head"
+    },
+    {
+        "id": "301000",
+        "name": "Another's Memory: Shura - Body"
+    },
+    {
+        "id": "331000",
+        "name": "Another's Memory: Shura - Body - No Mortal Blade"
+    },
+    {
+        "id": "302000",
+        "name": "Another's Memory: Shura - Prosthetic Arm"
+    },
+    {
+        "id": "303000",
+        "name": "Another's Memory: Shura - Legs"
+    },
+    {
+        "id": "304000",
+        "name": "Another's Memory: Shura - Hair"
+    },
+    {
+        "id": "400000",
+        "name": "Another's Memory: Ashina - Head"
+    },
+    {
+        "id": "401000",
+        "name": "Another's Memory: Ashina - Body"
+    },
+    {
+        "id": "431000",
+        "name": "Another's Memory: Ashina - Body - No Mortal Blade"
+    },
+    {
+        "id": "402000",
+        "name": "Another's Memory: Ashina - Prosthetic Arm"
+    },
+    {
+        "id": "403000",
+        "name": "Another's Memory: Ashina - Legs"
+    },
+    {
+        "id": "500000",
+        "name": "Another's Memory: Tengu - Head"
+    },
+    {
+        "id": "501000",
+        "name": "Another's Memory: Tengu - Body"
+    },
+    {
+        "id": "531000",
+        "name": "Another's Memory: Tengu - Body - No Mortal Blade"
+    },
+    {
+        "id": "502000",
+        "name": "Another's Memory: Tengu - Prosthetic Arm"
+    },
+    {
+        "id": "503000",
+        "name": "Another's Memory: Tengu - Legs"
+    },
+    {
+        "id": "600000",
+        "name": ""
+    },
+    {
+        "id": "641000",
+        "name": ""
+    },
+    {
+        "id": "602000",
+        "name": ""
+    },
+    {
+        "id": "603000",
+        "name": ""
+    },
+    {
+        "id": "901000",
+        "name": ""
+    },
+    {
+        "id": "901100",
+        "name": ""
+    },
+    {
+        "id": "901200",
+        "name": ""
+    },
+    {
+        "id": "901300",
+        "name": ""
+    }
+]

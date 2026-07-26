@@ -1,0 +1,1430 @@
+[
+    {
+        "id": "60",
+        "name": ""
+    },
+    {
+        "id": "61",
+        "name": ""
+    },
+    {
+        "id": "62",
+        "name": ""
+    },
+    {
+        "id": "63",
+        "name": ""
+    },
+    {
+        "id": "64",
+        "name": ""
+    },
+    {
+        "id": "65",
+        "name": ""
+    },
+    {
+        "id": "66",
+        "name": ""
+    },
+    {
+        "id": "67",
+        "name": ""
+    },
+    {
+        "id": "68",
+        "name": ""
+    },
+    {
+        "id": "69",
+        "name": ""
+    },
+    {
+        "id": "70",
+        "name": ""
+    },
+    {
+        "id": "71",
+        "name": ""
+    },
+    {
+        "id": "72",
+        "name": ""
+    },
+    {
+        "id": "73",
+        "name": ""
+    },
+    {
+        "id": "74",
+        "name": ""
+    },
+    {
+        "id": "75",
+        "name": ""
+    },
+    {
+        "id": "76",
+        "name": ""
+    },
+    {
+        "id": "77",
+        "name": ""
+    },
+    {
+        "id": "78",
+        "name": ""
+    },
+    {
+        "id": "79",
+        "name": ""
+    },
+    {
+        "id": "90",
+        "name": ""
+    },
+    {
+        "id": "91",
+        "name": ""
+    },
+    {
+        "id": "92",
+        "name": ""
+    },
+    {
+        "id": "93",
+        "name": ""
+    },
+    {
+        "id": "94",
+        "name": ""
+    },
+    {
+        "id": "95",
+        "name": ""
+    },
+    {
+        "id": "500",
+        "name": "Unseen Aid Remaining"
+    },
+    {
+        "id": "1000",
+        "name": "Spirit Emblem"
+    },
+    {
+        "id": "1001",
+        "name": "Red Spirit Emblem"
+    },
+    {
+        "id": "1100",
+        "name": "Regenerative Power"
+    },
+    {
+        "id": "1101",
+        "name": "Regenerative Power Fragment"
+    },
+    {
+        "id": "1110",
+        "name": "Temporary Regenerative Power"
+    },
+    {
+        "id": "1200",
+        "name": "Skill Point"
+    },
+    {
+        "id": "2000",
+        "name": "Resurrection"
+    },
+    {
+        "id": "2100",
+        "name": "Bloodsmoke Ninjutsu"
+    },
+    {
+        "id": "2110",
+        "name": "Puppeteer Ninjutsu"
+    },
+    {
+        "id": "2120",
+        "name": "Bestowal Ninjutsu"
+    },
+    {
+        "id": "2300",
+        "name": "Kusabimaru"
+    },
+    {
+        "id": "2310",
+        "name": "Shinobi Prosthetic"
+    },
+    {
+        "id": "2390",
+        "name": "Night Eye"
+    },
+    {
+        "id": "2400",
+        "name": "Mortal Blade"
+    },
+    {
+        "id": "2420",
+        "name": "Mibu Breathing Technique"
+    },
+    {
+        "id": "2450",
+        "name": "Anti-air Deathblow Text"
+    },
+    {
+        "id": "2460",
+        "name": "Dragon Flash"
+    },
+    {
+        "id": "2461",
+        "name": "Floating Passage Text"
+    },
+    {
+        "id": "2462",
+        "name": "One Mind"
+    },
+    {
+        "id": "2470",
+        "name": "Shinobi Medicine Rank 1"
+    },
+    {
+        "id": "2471",
+        "name": "Shinobi Medicine Rank 2"
+    },
+    {
+        "id": "2472",
+        "name": "Shinobi Medicine Rank 3"
+    },
+    {
+        "id": "2475",
+        "name": "A Beast's Karma"
+    },
+    {
+        "id": "2480",
+        "name": "Breath of Life: Shadow"
+    },
+    {
+        "id": "2481",
+        "name": "Breath of Nature: Shadow"
+    },
+    {
+        "id": "2490",
+        "name": "Sakura Dance"
+    },
+    {
+        "id": "2500",
+        "name": "Lotus of the Palace"
+    },
+    {
+        "id": "2501",
+        "name": "Shelter Stone"
+    },
+    {
+        "id": "2502",
+        "name": "Aromatic Branch"
+    },
+    {
+        "id": "2503",
+        "name": "Aromatic Flower"
+    },
+    {
+        "id": "2910",
+        "name": "Mechanical Barrel"
+    },
+    {
+        "id": "2920",
+        "name": "Shinobi Esoteric Text"
+    },
+    {
+        "id": "2921",
+        "name": "Prosthetic Esoteric Text"
+    },
+    {
+        "id": "2922",
+        "name": "Ashina Esoteric Text"
+    },
+    {
+        "id": "2923",
+        "name": "Senpou Esoteric Text"
+    },
+    {
+        "id": "2924",
+        "name": "Mushin Esoteric Text"
+    },
+    {
+        "id": "2930",
+        "name": "Recovery Charm"
+    },
+    {
+        "id": "3000",
+        "name": "Healing Gourd"
+    },
+    {
+        "id": "3001",
+        "name": "Empty Healing Gourd"
+    },
+    {
+        "id": "3020",
+        "name": "Pellet"
+    },
+    {
+        "id": "3040",
+        "name": "Divine Grass"
+    },
+    {
+        "id": "3050",
+        "name": "Red Lump (Jinzaemon)"
+    },
+    {
+        "id": "3051",
+        "name": "Red Lump"
+    },
+    {
+        "id": "3052",
+        "name": "Red Lump (Kotaro)"
+    },
+    {
+        "id": "3053",
+        "name": "Academics' Red Lump"
+    },
+    {
+        "id": "3060",
+        "name": "Sweet Rice Ball"
+    },
+    {
+        "id": "3061",
+        "name": "Sweet Rice Ball 2"
+    },
+    {
+        "id": "3070",
+        "name": "Persimmon"
+    },
+    {
+        "id": "3071",
+        "name": "Taro Persimmon"
+    },
+    {
+        "id": "3080",
+        "name": "Rice"
+    },
+    {
+        "id": "3081",
+        "name": "Fine Snow"
+    },
+    {
+        "id": "3200",
+        "name": "Antidote Powder"
+    },
+    {
+        "id": "3210",
+        "name": "Dousing Powder"
+    },
+    {
+        "id": "3211",
+        "name": "Ministry Dousing Powder"
+    },
+    {
+        "id": "3220",
+        "name": "Pacifying Agent"
+    },
+    {
+        "id": "3230",
+        "name": "Eel Liver"
+    },
+    {
+        "id": "3250",
+        "name": "Contact Medicine"
+    },
+    {
+        "id": "3290",
+        "name": "Bite Down"
+    },
+    {
+        "id": "3291",
+        "name": "Hidden Tooth"
+    },
+    {
+        "id": "3292",
+        "name": "Bite Down (Nightjar)"
+    },
+    {
+        "id": "3300",
+        "name": "Green Mossy Gourd"
+    },
+    {
+        "id": "3301",
+        "name": "Empty Green Mossy Gourd"
+    },
+    {
+        "id": "3310",
+        "name": "Withered Red Gourd"
+    },
+    {
+        "id": "3311",
+        "name": "Empty Withered Red Gourd"
+    },
+    {
+        "id": "3320",
+        "name": "Mottled Purple Gourd"
+    },
+    {
+        "id": "3321",
+        "name": "Empty Mottled Purple Gourd"
+    },
+    {
+        "id": "3350",
+        "name": "Ako's Spiritfall"
+    },
+    {
+        "id": "3360",
+        "name": "Yashariku's Spiritfall"
+    },
+    {
+        "id": "3370",
+        "name": "Ungo's Spiritfall"
+    },
+    {
+        "id": "3380",
+        "name": "Gokan's Spiritfall"
+    },
+    {
+        "id": "3390",
+        "name": "Gachiin's Spiritfall"
+    },
+    {
+        "id": "3400",
+        "name": "Ako's Sugar"
+    },
+    {
+        "id": "3410",
+        "name": "Yashariku's Sugar"
+    },
+    {
+        "id": "3420",
+        "name": "Ungo's Sugar"
+    },
+    {
+        "id": "3430",
+        "name": "Gokan's Sugar"
+    },
+    {
+        "id": "3440",
+        "name": "Gachiin's Sugar"
+    },
+    {
+        "id": "3450",
+        "name": "Divine Confetti"
+    },
+    {
+        "id": "3500",
+        "name": "Ceramic Shard"
+    },
+    {
+        "id": "3510",
+        "name": "Fistful of Ash"
+    },
+    {
+        "id": "3520",
+        "name": "Oil"
+    },
+    {
+        "id": "3530",
+        "name": "Snap Seed"
+    },
+    {
+        "id": "3580",
+        "name": "Five-color Rice"
+    },
+    {
+        "id": "3581",
+        "name": "Empty Five-color Rice"
+    },
+    {
+        "id": "3600",
+        "name": "Mibu Balloon of Wealth"
+    },
+    {
+        "id": "3610",
+        "name": "Mibu Balloon of Soul"
+    },
+    {
+        "id": "3620",
+        "name": "Mibu Possession Balloon"
+    },
+    {
+        "id": "3630",
+        "name": "Mibu Balloon of Spirit"
+    },
+    {
+        "id": "3640",
+        "name": "Mibu Pilgrimage Balloon"
+    },
+    {
+        "id": "3700",
+        "name": "Light Coin Purse"
+    },
+    {
+        "id": "3704",
+        "name": "Heavy Coin Purse"
+    },
+    {
+        "id": "3708",
+        "name": "Bulging Coin Purse"
+    },
+    {
+        "id": "3720",
+        "name": "Bundled Jizo Statue"
+    },
+    {
+        "id": "3721",
+        "name": "Jinza's Jizo Statue"
+    },
+    {
+        "id": "3730",
+        "name": "Bell Demon"
+    },
+    {
+        "id": "3800",
+        "name": "Ceremonial Tanto"
+    },
+    {
+        "id": "3801",
+        "name": "Empty Ceremonial Tanto"
+    },
+    {
+        "id": "3900",
+        "name": "Nightjar Monocular"
+    },
+    {
+        "id": "3980",
+        "name": "Homeward Idol"
+    },
+    {
+        "id": "3990",
+        "name": "Illusive Hall Bell"
+    },
+    {
+        "id": "4000",
+        "name": "Prayer Bead"
+    },
+    {
+        "id": "4100",
+        "name": "First Prayer Necklace"
+    },
+    {
+        "id": "4101",
+        "name": "Second Prayer Necklace"
+    },
+    {
+        "id": "4102",
+        "name": "Third Prayer Necklace"
+    },
+    {
+        "id": "4103",
+        "name": "Fourth Prayer Necklace"
+    },
+    {
+        "id": "4104",
+        "name": "Fifth Prayer Necklace"
+    },
+    {
+        "id": "4105",
+        "name": "Sixth Prayer Necklace"
+    },
+    {
+        "id": "4106",
+        "name": "Seventh Prayer Necklace"
+    },
+    {
+        "id": "4107",
+        "name": "Eighth Prayer Necklace"
+    },
+    {
+        "id": "4108",
+        "name": "Ninth Prayer Necklace"
+    },
+    {
+        "id": "4109",
+        "name": "Final Prayer Necklace"
+    },
+    {
+        "id": "4400",
+        "name": "Gourd Seed"
+    },
+    {
+        "id": "5100",
+        "name": "Memory"
+    },
+    {
+        "id": "5200",
+        "name": "Memory: Gyoubu Oniwa"
+    },
+    {
+        "id": "5201",
+        "name": "Memory: Lady Butterfly"
+    },
+    {
+        "id": "5202",
+        "name": "Memory: Genichiro"
+    },
+    {
+        "id": "5203",
+        "name": "Memory: Screen Monkeys"
+    },
+    {
+        "id": "5204",
+        "name": "Memory: Guardian Ape"
+    },
+    {
+        "id": "5205",
+        "name": "Memory: Corrupted Monk"
+    },
+    {
+        "id": "5206",
+        "name": "Memory: Great Shinobi"
+    },
+    {
+        "id": "5207",
+        "name": "Memory: Foster Father"
+    },
+    {
+        "id": "5208",
+        "name": "Memory: True Monk"
+    },
+    {
+        "id": "5209",
+        "name": "Memory: Divine Dragon"
+    },
+    {
+        "id": "5210",
+        "name": "Memory: Hatred Demon"
+    },
+    {
+        "id": "5211",
+        "name": "Memory: Saint Isshin"
+    },
+    {
+        "id": "5212",
+        "name": "Memory: Isshin Ashina"
+    },
+    {
+        "id": "5213",
+        "name": "Memory: Headless Ape"
+    },
+    {
+        "id": "5220",
+        "name": "Memory: Inner Genichiro"
+    },
+    {
+        "id": "5221",
+        "name": "Memory: Inner Father"
+    },
+    {
+        "id": "5222",
+        "name": "Memory: Inner Isshin"
+    },
+    {
+        "id": "5300",
+        "name": "Remnant: Gyoubu"
+    },
+    {
+        "id": "5301",
+        "name": "Remnant: Lady Butterfly"
+    },
+    {
+        "id": "5302",
+        "name": "Remnant: Genichiro"
+    },
+    {
+        "id": "5303",
+        "name": "Remnant: Screen Monkeys"
+    },
+    {
+        "id": "5304",
+        "name": "Remnant: Guardian Ape"
+    },
+    {
+        "id": "5305",
+        "name": "Remnant: Corrupted Monk"
+    },
+    {
+        "id": "5306",
+        "name": "Remnant: Great Shinobi"
+    },
+    {
+        "id": "5307",
+        "name": "Remnant: Foster Father"
+    },
+    {
+        "id": "5308",
+        "name": "Remnant: True Monk"
+    },
+    {
+        "id": "5309",
+        "name": "Remnant: Divine Dragon"
+    },
+    {
+        "id": "5310",
+        "name": "Remnant: Hatred Demon"
+    },
+    {
+        "id": "5311",
+        "name": "Remnant: Saint Isshin"
+    },
+    {
+        "id": "5312",
+        "name": "Remnant: Isshin Ashina"
+    },
+    {
+        "id": "5313",
+        "name": "Remnant: Headless Ape"
+    },
+    {
+        "id": "5320",
+        "name": "Remnant: Inner Genichiro"
+    },
+    {
+        "id": "5321",
+        "name": "Remnant: Inner Father"
+    },
+    {
+        "id": "5322",
+        "name": "Remnant: Inner Isshin"
+    },
+    {
+        "id": "5400",
+        "name": "Memory"
+    },
+    {
+        "id": "5500",
+        "name": "Mask Fragment: Right"
+    },
+    {
+        "id": "5501",
+        "name": "Mask Fragment: Left"
+    },
+    {
+        "id": "5502",
+        "name": "Mask Fragment: Dragon"
+    },
+    {
+        "id": "5510",
+        "name": "Dancing Dragon Mask"
+    },
+    {
+        "id": "5600",
+        "name": "Dragon's Blood Droplet"
+    },
+    {
+        "id": "6000",
+        "name": "Scrap Iron"
+    },
+    {
+        "id": "6010",
+        "name": "Scrap Magnetite"
+    },
+    {
+        "id": "6020",
+        "name": "Adamantite Scrap"
+    },
+    {
+        "id": "6100",
+        "name": "Black Gunpowder"
+    },
+    {
+        "id": "6200",
+        "name": "Yellow Gunpowder"
+    },
+    {
+        "id": "6210",
+        "name": "Fulminated Mercury"
+    },
+    {
+        "id": "6300",
+        "name": "Lump of Fat Wax"
+    },
+    {
+        "id": "6310",
+        "name": "Lump of Grave Wax"
+    },
+    {
+        "id": "6400",
+        "name": "Lapis Lazuli"
+    },
+    {
+        "id": "9000",
+        "name": "Divine Dragon's Tears"
+    },
+    {
+        "id": "9003",
+        "name": "Kuro's Charm"
+    },
+    {
+        "id": "9009",
+        "name": "Sakura Droplet"
+    },
+    {
+        "id": "9010",
+        "name": "Young Lord's Bell Charm"
+    },
+    {
+        "id": "9011",
+        "name": "Father's Bell Charm"
+    },
+    {
+        "id": "9020",
+        "name": "Ornamental Letter"
+    },
+    {
+        "id": "9052",
+        "name": "Red Carp Eyes"
+    },
+    {
+        "id": "9060",
+        "name": "Dragon's Tally Board"
+    },
+    {
+        "id": "9061",
+        "name": "Promissory Note"
+    },
+    {
+        "id": "9070",
+        "name": "Water of the Palace"
+    },
+    {
+        "id": "9071",
+        "name": "Great White Whisker"
+    },
+    {
+        "id": "9080",
+        "name": "Red and White Pinwheel"
+    },
+    {
+        "id": "9081",
+        "name": "White Pinwheel"
+    },
+    {
+        "id": "9090",
+        "name": "Rice for Kuro"
+    },
+    {
+        "id": "9091",
+        "name": "Frozen Tears"
+    },
+    {
+        "id": "9100",
+        "name": "Ashina Sake"
+    },
+    {
+        "id": "9101",
+        "name": "Unrefined Sake"
+    },
+    {
+        "id": "9102",
+        "name": "Monkey Booze"
+    },
+    {
+        "id": "9103",
+        "name": "Dragonspring Sake"
+    },
+    {
+        "id": "9104",
+        "name": "Ashina Sake"
+    },
+    {
+        "id": "9105",
+        "name": "Unrefined Sake"
+    },
+    {
+        "id": "9180",
+        "name": "Precious Bait"
+    },
+    {
+        "id": "9181",
+        "name": "Truly Precious Bait (Harunaga)"
+    },
+    {
+        "id": "9182",
+        "name": "Truly Precious Bait (Koremori)"
+    },
+    {
+        "id": "9192",
+        "name": "Fresh Serpent Viscera"
+    },
+    {
+        "id": "9193",
+        "name": "Dried Serpent Viscera"
+    },
+    {
+        "id": "9200",
+        "name": "Herb Catalogue Scrap"
+    },
+    {
+        "id": "9205",
+        "name": "Dosaku's Note"
+    },
+    {
+        "id": "9206",
+        "name": "Rat Description"
+    },
+    {
+        "id": "9207",
+        "name": "Surgeon's Bloody Letter"
+    },
+    {
+        "id": "9208",
+        "name": "Surgeon's Stained Letter"
+    },
+    {
+        "id": "9209",
+        "name": "Holy Chapter: Dragon's Return"
+    },
+    {
+        "id": "9210",
+        "name": "Immortal Severance Text"
+    },
+    {
+        "id": "9211",
+        "name": "Immortal Severance Scrap"
+    },
+    {
+        "id": "9212",
+        "name": "Fragrant Flower Note"
+    },
+    {
+        "id": "9213",
+        "name": "Okami's Ancient Text"
+    },
+    {
+        "id": "9214",
+        "name": "Page's Diary"
+    },
+    {
+        "id": "9215",
+        "name": "Holy Chapter: Infested"
+    },
+    {
+        "id": "9216",
+        "name": "Tomoe's Note"
+    },
+    {
+        "id": "9217",
+        "name": "Flame Barrel Memo"
+    },
+    {
+        "id": "9218",
+        "name": "Nightjar Beacon Memo"
+    },
+    {
+        "id": "9219",
+        "name": "Isshin's Letter"
+    },
+    {
+        "id": "9220",
+        "name": "Rotting Prisoner's Note"
+    },
+    {
+        "id": "9221",
+        "name": "Sabimaru Memo (In Shop)"
+    },
+    {
+        "id": "9222",
+        "name": "Sabimaru Memo (Bought)"
+    },
+    {
+        "id": "9223",
+        "name": "Valley Apparitions Memo (In Shop)"
+    },
+    {
+        "id": "9224",
+        "name": "Valley Apparitions Memo (Bought)"
+    },
+    {
+        "id": "9225",
+        "name": "Three-story Pagoda Memo (In Shop)"
+    },
+    {
+        "id": "9226",
+        "name": "Three-story Pagoda Memo (Bought)"
+    },
+    {
+        "id": "9227",
+        "name": "Black Scroll"
+    },
+    {
+        "id": "9228",
+        "name": "Holy Chapter: Infested"
+    },
+    {
+        "id": "9402",
+        "name": "Gatehouse Key"
+    },
+    {
+        "id": "9403",
+        "name": "Hidden Temple Key"
+    },
+    {
+        "id": "9404",
+        "name": "Secret Passage Key"
+    },
+    {
+        "id": "9405",
+        "name": "Gun Fort Shrine Key"
+    },
+    {
+        "id": "9500",
+        "name": "Rot Essence: Sculptor"
+    },
+    {
+        "id": "9501",
+        "name": "Rot Essence: Newcomer"
+    },
+    {
+        "id": "9502",
+        "name": "Rot Essence: Black Hat"
+    },
+    {
+        "id": "9503",
+        "name": "Rot Essence: Lost Child"
+    },
+    {
+        "id": "9504",
+        "name": "Rot Essence: Charmed One"
+    },
+    {
+        "id": "9505",
+        "name": "Rot Essence: Surgeons"
+    },
+    {
+        "id": "9510",
+        "name": "Rot Essence: Fine Son"
+    },
+    {
+        "id": "9511",
+        "name": "Rot Essence: Thirsty One"
+    },
+    {
+        "id": "9515",
+        "name": "Rot Essence: Timid Maid"
+    },
+    {
+        "id": "9516",
+        "name": "Rot Essence: Faithful One"
+    },
+    {
+        "id": "9520",
+        "name": "Rot Essence: Crow Mob"
+    },
+    {
+        "id": "9521",
+        "name": "Rot Essence: Wartorn Mob"
+    },
+    {
+        "id": "9522",
+        "name": "Rot Essence: Jail Mob"
+    },
+    {
+        "id": "9523",
+        "name": "Rot Essence: Toxic Mob"
+    },
+    {
+        "id": "9524",
+        "name": "Rot Essence: Pious Mob"
+    },
+    {
+        "id": "9525",
+        "name": "Rot Essence: Drunk Mob"
+    },
+    {
+        "id": "9526",
+        "name": "Rot Essence: Info Broker"
+    },
+    {
+        "id": "9560",
+        "name": "Dragonrot Blood Sample"
+    },
+    {
+        "id": "9700",
+        "name": "Shuriken Wheel"
+    },
+    {
+        "id": "9701",
+        "name": "Phantom Kunai"
+    },
+    {
+        "id": "9710",
+        "name": "Robert's Firecrackers"
+    },
+    {
+        "id": "9720",
+        "name": "Flame Barrel"
+    },
+    {
+        "id": "9721",
+        "name": "Pine Resin Ember"
+    },
+    {
+        "id": "9730",
+        "name": "Shinobi Axe of the Monkey"
+    },
+    {
+        "id": "9740",
+        "name": "Mist Raven's Feathers"
+    },
+    {
+        "id": "9750",
+        "name": "Sabimaru"
+    },
+    {
+        "id": "9760",
+        "name": "Iron Fortress"
+    },
+    {
+        "id": "9770",
+        "name": "Large Fan"
+    },
+    {
+        "id": "9780",
+        "name": "Gyoubu's Broken Horn"
+    },
+    {
+        "id": "9790",
+        "name": "Slender Finger"
+    },
+    {
+        "id": "9791",
+        "name": "Malcontent's Ring"
+    },
+    {
+        "id": "9800",
+        "name": "Another's Memory: Shura"
+    },
+    {
+        "id": "9810",
+        "name": "Another's Memory: Ashina"
+    },
+    {
+        "id": "9820",
+        "name": "Another's Memory: Tengu"
+    },
+    {
+        "id": "10000",
+        "name": "Treasure Carp Scale"
+    },
+    {
+        "id": "11000",
+        "name": "Boss Rematch: Gyoubu Oniwa"
+    },
+    {
+        "id": "11010",
+        "name": "Boss Rematch: Lady Butterfly"
+    },
+    {
+        "id": "11020",
+        "name": "Boss Rematch: Genichiro Ashina"
+    },
+    {
+        "id": "11030",
+        "name": "Boss Rematch: Folding Screen Monkeys"
+    },
+    {
+        "id": "11040",
+        "name": "Boss Rematch: Guardian Ape"
+    },
+    {
+        "id": "11050",
+        "name": "Boss Rematch: Headless Ape"
+    },
+    {
+        "id": "11060",
+        "name": "Boss Rematch: Corrupted Monk"
+    },
+    {
+        "id": "11070",
+        "name": "Boss Rematch: True Monk"
+    },
+    {
+        "id": "11080",
+        "name": "Boss Rematch: Great Shinobi - Owl"
+    },
+    {
+        "id": "11090",
+        "name": "Boss Rematch: Owl (Father)"
+    },
+    {
+        "id": "11100",
+        "name": "Boss Rematch: Divine Dragon"
+    },
+    {
+        "id": "11110",
+        "name": "Boss Rematch: Emma, the Gentle Blade"
+    },
+    {
+        "id": "11120",
+        "name": "Boss Rematch: Isshin Ashina"
+    },
+    {
+        "id": "11130",
+        "name": "Boss Rematch: Isshin the Sword Saint"
+    },
+    {
+        "id": "11140",
+        "name": "Boss Rematch: Demon of Hatred"
+    },
+    {
+        "id": "11150",
+        "name": "Boss Rematch: Inner Genichiro"
+    },
+    {
+        "id": "11160",
+        "name": "Boss Rematch: Inner Father"
+    },
+    {
+        "id": "11170",
+        "name": "Boss Rematch: Inner Isshin"
+    },
+    {
+        "id": "11180",
+        "name": "Boss Rematch: Genichiro, Way of Tomoe"
+    },
+    {
+        "id": "11500",
+        "name": "Boss Rematch: Unknown Boss"
+    },
+    {
+        "id": "12000",
+        "name": "Boss Rematch: Unlock Inner Genichiro"
+    },
+    {
+        "id": "12010",
+        "name": "Boss Rematch: Unlock Inner Father"
+    },
+    {
+        "id": "12020",
+        "name": "Boss Rematch: Unlock Inner Isshin"
+    },
+    {
+        "id": "12500",
+        "name": "Boss Rematch: Death Check"
+    },
+    {
+        "id": "12600",
+        "name": "Boss Rematch: Inner Genichiro Reward Check"
+    },
+    {
+        "id": "12610",
+        "name": "Boss Rematch: Inner Father Reward Check"
+    },
+    {
+        "id": "12620",
+        "name": "Boss Rematch: Inner Isshin Reward Check"
+    },
+    {
+        "id": "910000",
+        "name": ""
+    },
+    {
+        "id": "910010",
+        "name": ""
+    },
+    {
+        "id": "910020",
+        "name": ""
+    },
+    {
+        "id": "910030",
+        "name": ""
+    },
+    {
+        "id": "910040",
+        "name": ""
+    },
+    {
+        "id": "910050",
+        "name": ""
+    },
+    {
+        "id": "910060",
+        "name": ""
+    },
+    {
+        "id": "910070",
+        "name": ""
+    },
+    {
+        "id": "910080",
+        "name": ""
+    },
+    {
+        "id": "910090",
+        "name": ""
+    },
+    {
+        "id": "910100",
+        "name": ""
+    },
+    {
+        "id": "910110",
+        "name": ""
+    },
+    {
+        "id": "910120",
+        "name": ""
+    },
+    {
+        "id": "910130",
+        "name": ""
+    },
+    {
+        "id": "910140",
+        "name": ""
+    },
+    {
+        "id": "910150",
+        "name": ""
+    },
+    {
+        "id": "920000",
+        "name": ""
+    },
+    {
+        "id": "920010",
+        "name": ""
+    },
+    {
+        "id": "920020",
+        "name": ""
+    },
+    {
+        "id": "920030",
+        "name": ""
+    },
+    {
+        "id": "920040",
+        "name": ""
+    },
+    {
+        "id": "920050",
+        "name": ""
+    },
+    {
+        "id": "920060",
+        "name": ""
+    },
+    {
+        "id": "920070",
+        "name": ""
+    },
+    {
+        "id": "920080",
+        "name": ""
+    },
+    {
+        "id": "920090",
+        "name": ""
+    },
+    {
+        "id": "920100",
+        "name": ""
+    },
+    {
+        "id": "920110",
+        "name": ""
+    },
+    {
+        "id": "920120",
+        "name": ""
+    },
+    {
+        "id": "920130",
+        "name": ""
+    },
+    {
+        "id": "920140",
+        "name": ""
+    },
+    {
+        "id": "920150",
+        "name": ""
+    },
+    {
+        "id": "930000",
+        "name": ""
+    },
+    {
+        "id": "930010",
+        "name": ""
+    },
+    {
+        "id": "930020",
+        "name": ""
+    },
+    {
+        "id": "930030",
+        "name": ""
+    },
+    {
+        "id": "930040",
+        "name": ""
+    },
+    {
+        "id": "930050",
+        "name": ""
+    },
+    {
+        "id": "930060",
+        "name": ""
+    },
+    {
+        "id": "930070",
+        "name": ""
+    },
+    {
+        "id": "930080",
+        "name": ""
+    },
+    {
+        "id": "930090",
+        "name": ""
+    },
+    {
+        "id": "930100",
+        "name": ""
+    },
+    {
+        "id": "930110",
+        "name": ""
+    },
+    {
+        "id": "930120",
+        "name": ""
+    },
+    {
+        "id": "930130",
+        "name": ""
+    },
+    {
+        "id": "930140",
+        "name": ""
+    },
+    {
+        "id": "930150",
+        "name": ""
+    },
+    {
+        "id": "999996",
+        "name": ""
+    },
+    {
+        "id": "999997",
+        "name": ""
+    },
+    {
+        "id": "999998",
+        "name": ""
+    },
+    {
+        "id": "999999",
+        "name": ""
+    }
+]

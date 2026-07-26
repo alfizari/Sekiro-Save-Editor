@@ -1,0 +1,694 @@
+[
+    {
+        "id": "1000",
+        "name": ""
+    },
+    {
+        "id": "1100",
+        "name": ""
+    },
+    {
+        "id": "1200",
+        "name": ""
+    },
+    {
+        "id": "5000",
+        "name": "None"
+    },
+    {
+        "id": "5100",
+        "name": "Whirlwind Slash"
+    },
+    {
+        "id": "5200",
+        "name": "Nightjar Slash"
+    },
+    {
+        "id": "5300",
+        "name": "Ichimonji"
+    },
+    {
+        "id": "5400",
+        "name": "Dragon Flash"
+    },
+    {
+        "id": "5500",
+        "name": "Ashina Cross"
+    },
+    {
+        "id": "5600",
+        "name": "Floating Passage"
+    },
+    {
+        "id": "5700",
+        "name": "Mortal Draw"
+    },
+    {
+        "id": "5800",
+        "name": "Senpou Leaping Kicks"
+    },
+    {
+        "id": "5900",
+        "name": "Praying Strikes"
+    },
+    {
+        "id": "6000",
+        "name": "Shadowrush"
+    },
+    {
+        "id": "6100",
+        "name": "One Mind"
+    },
+    {
+        "id": "7000",
+        "name": "Nightjar Slash Reversal"
+    },
+    {
+        "id": "7100",
+        "name": "Ichimonji: Double"
+    },
+    {
+        "id": "7200",
+        "name": "Spiral Cloud Passage"
+    },
+    {
+        "id": "7300",
+        "name": "Empowered Mortal Draw"
+    },
+    {
+        "id": "7400",
+        "name": "High Monk"
+    },
+    {
+        "id": "7500",
+        "name": "Praying Strikes - Exorcism"
+    },
+    {
+        "id": "7600",
+        "name": "Shadowfall"
+    },
+    {
+        "id": "7700",
+        "name": "Sakura Dance"
+    },
+    {
+        "id": "70000",
+        "name": "Loaded Shuriken"
+    },
+    {
+        "id": "70100",
+        "name": "Spinning Shuriken"
+    },
+    {
+        "id": "70200",
+        "name": "Gouging Top"
+    },
+    {
+        "id": "70300",
+        "name": "Phantom Kunai"
+    },
+    {
+        "id": "70400",
+        "name": "Sen Throw"
+    },
+    {
+        "id": "70500",
+        "name": "Lazulite Shuriken"
+    },
+    {
+        "id": "71000",
+        "name": "Shinobi Firecracker"
+    },
+    {
+        "id": "71100",
+        "name": "Spring-load Firecracker"
+    },
+    {
+        "id": "71200",
+        "name": "Long Spark"
+    },
+    {
+        "id": "71300",
+        "name": "Purple Fume Spark"
+    },
+    {
+        "id": "72000",
+        "name": "Flame Vent"
+    },
+    {
+        "id": "72100",
+        "name": "Spring-load Flame Vent"
+    },
+    {
+        "id": "72200",
+        "name": "Okinaga's Flame Vent"
+    },
+    {
+        "id": "72300",
+        "name": "Lazulite Sacred Flame"
+    },
+    {
+        "id": "73000",
+        "name": "Loaded Axe"
+    },
+    {
+        "id": "73100",
+        "name": "Spring-load Axe"
+    },
+    {
+        "id": "73200",
+        "name": "Sparking Axe"
+    },
+    {
+        "id": "73300",
+        "name": "Lazulite Axe"
+    },
+    {
+        "id": "74000",
+        "name": "Mist Raven"
+    },
+    {
+        "id": "74100",
+        "name": "Aged Feather Mist Raven"
+    },
+    {
+        "id": "74200",
+        "name": "Great Feather Mist Raven"
+    },
+    {
+        "id": "75000",
+        "name": "Sabimaru"
+    },
+    {
+        "id": "75100",
+        "name": "Improved Sabimaru"
+    },
+    {
+        "id": "75200",
+        "name": "Piercing Sabimaru"
+    },
+    {
+        "id": "75300",
+        "name": "Lazulite Sabimaru"
+    },
+    {
+        "id": "76000",
+        "name": "Loaded Umbrella"
+    },
+    {
+        "id": "76100",
+        "name": "Loaded Umbrella - Magnet"
+    },
+    {
+        "id": "76200",
+        "name": "Suzaku's Lotus Umbrella"
+    },
+    {
+        "id": "76300",
+        "name": "Phoenix's Lilac Umbrella"
+    },
+    {
+        "id": "77000",
+        "name": "Divine Abduction"
+    },
+    {
+        "id": "77100",
+        "name": "Double Divine Abduction"
+    },
+    {
+        "id": "77200",
+        "name": "Golden Vortex"
+    },
+    {
+        "id": "78000",
+        "name": "Loaded Spear"
+    },
+    {
+        "id": "78100",
+        "name": "Loaded Spear Thrust type"
+    },
+    {
+        "id": "78200",
+        "name": "Loaded Spear Cleave type"
+    },
+    {
+        "id": "78300",
+        "name": "Spiral Spear"
+    },
+    {
+        "id": "78400",
+        "name": "Leaping Flame"
+    },
+    {
+        "id": "79000",
+        "name": "Finger Whistle"
+    },
+    {
+        "id": "79100",
+        "name": "Mountain Echo"
+    },
+    {
+        "id": "79200",
+        "name": "Malconent"
+    },
+    {
+        "id": "110000",
+        "name": "None"
+    },
+    {
+        "id": "110900",
+        "name": "Bare hand for sword confirmation"
+    },
+    {
+        "id": "200000",
+        "name": "Grappling Hook Attack"
+    },
+    {
+        "id": "200100",
+        "name": "Mid-air Deflection"
+    },
+    {
+        "id": "200200",
+        "name": "Mid-air Prosthetic Tool"
+    },
+    {
+        "id": "200300",
+        "name": "Mikiri Counter"
+    },
+    {
+        "id": "200400",
+        "name": "Run and Slide"
+    },
+    {
+        "id": "200500",
+        "name": "Mid-air Combat Arts"
+    },
+    {
+        "id": "200600",
+        "name": "Vault Over"
+    },
+    {
+        "id": "210000",
+        "name": "Virtual Weapon: Whirlwind Slash"
+    },
+    {
+        "id": "211000",
+        "name": "Virtual Weapon: Shadowrush"
+    },
+    {
+        "id": "301000",
+        "name": "Chasing Slice"
+    },
+    {
+        "id": "301100",
+        "name": "Fang and Blade"
+    },
+    {
+        "id": "301200",
+        "name": "Projected Force"
+    },
+    {
+        "id": "301300",
+        "name": "Living Force"
+    },
+    {
+        "id": "310000",
+        "name": "Virtual Weapon: Nightjar Slash"
+    },
+    {
+        "id": "310100",
+        "name": "Virtual Weapon: Nightjar Slash Reversal"
+    },
+    {
+        "id": "410000",
+        "name": "Virtual Weapon: Ichimonji"
+    },
+    {
+        "id": "410100",
+        "name": "Virtual Weapon: Ichimonji: Double"
+    },
+    {
+        "id": "411000",
+        "name": "Virtual Weapon: Ashina Cross"
+    },
+    {
+        "id": "510000",
+        "name": "Virtual Weapon: Praying Strikes"
+    },
+    {
+        "id": "510100",
+        "name": "Virtual Weapon: Praying Strikes - Exorcism"
+    },
+    {
+        "id": "511000",
+        "name": "Virtual Weapon: Senpou Leaping Kicks"
+    },
+    {
+        "id": "511100",
+        "name": "Virtual Weapon: High Monk"
+    },
+    {
+        "id": "610100",
+        "name": "Virtual Weapon: Shadowfall"
+    },
+    {
+        "id": "611100",
+        "name": "Virtual Weapon: Spiral Cloud Passage"
+    },
+    {
+        "id": "612100",
+        "name": "Virtual Weapon: Empowered Mortal Draw"
+    },
+    {
+        "id": "620000",
+        "name": "Suppress Presence"
+    },
+    {
+        "id": "620100",
+        "name": "Suppress Sound"
+    },
+    {
+        "id": "630000",
+        "name": "Virtuous Deed"
+    },
+    {
+        "id": "630100",
+        "name": "Most Virtuous Deed"
+    },
+    {
+        "id": "640000",
+        "name": "Emma's Medicine: Potency"
+    },
+    {
+        "id": "640100",
+        "name": "Emma's Medicine: Aroma"
+    },
+    {
+        "id": "640200",
+        "name": "Shinobi Medicine Rank 1"
+    },
+    {
+        "id": "640300",
+        "name": "Shinobi Medicine Rank 2"
+    },
+    {
+        "id": "640400",
+        "name": "Shinobi Medicine Rank 3"
+    },
+    {
+        "id": "650000",
+        "name": "A Shinobi's Karma: Body"
+    },
+    {
+        "id": "650100",
+        "name": "A Shinobi's Karma: Mind"
+    },
+    {
+        "id": "650200",
+        "name": "Sculptor's Karma: Blood"
+    },
+    {
+        "id": "650300",
+        "name": "Sculptor's Karma: Scars"
+    },
+    {
+        "id": "650400",
+        "name": "A Beast's Karma"
+    },
+    {
+        "id": "660000",
+        "name": "Breath of Life: Light"
+    },
+    {
+        "id": "660100",
+        "name": "Breath of Life: Shadow"
+    },
+    {
+        "id": "660200",
+        "name": "Breath of Nature: Light"
+    },
+    {
+        "id": "660300",
+        "name": "Breath of Nature: Shadow"
+    },
+    {
+        "id": "660400",
+        "name": "Shinobi Eyes"
+    },
+    {
+        "id": "660500",
+        "name": "Devotion"
+    },
+    {
+        "id": "660600",
+        "name": "Ascending Carp"
+    },
+    {
+        "id": "660700",
+        "name": "Descending Carp"
+    },
+    {
+        "id": "660800",
+        "name": "Flowing Water"
+    },
+    {
+        "id": "670000",
+        "name": "Virtual Weapon: Mortal Draw"
+    },
+    {
+        "id": "671000",
+        "name": "Virtual Weapon: Dragon Flash"
+    },
+    {
+        "id": "672000",
+        "name": "Floating Passage"
+    },
+    {
+        "id": "673000",
+        "name": "Virtual Weapon: One Mind"
+    },
+    {
+        "id": "674000",
+        "name": "Virtual Weapon: Sakura Dance"
+    },
+    {
+        "id": "680000",
+        "name": "Mibu Breathing Technique"
+    },
+    {
+        "id": "681000",
+        "name": "Anti-air Deathblow"
+    },
+    {
+        "id": "690000",
+        "name": "Unknown Combat Art"
+    },
+    {
+        "id": "690100",
+        "name": "Unknown Art Upgrade"
+    },
+    {
+        "id": "690200",
+        "name": "Unknown Martial Art"
+    },
+    {
+        "id": "690300",
+        "name": "Unknown Latend Effect"
+    },
+    {
+        "id": "690400",
+        "name": "Unknown Secret Technique"
+    },
+    {
+        "id": "699000",
+        "name": "Unknown Skill No Type"
+    },
+    {
+        "id": "701000",
+        "name": "Upgrade Menu: Spinning Shuriken"
+    },
+    {
+        "id": "702000",
+        "name": "Upgrade Menu: Gouging Top"
+    },
+    {
+        "id": "703000",
+        "name": "Upgrade Menu: Phantom Kunai"
+    },
+    {
+        "id": "704000",
+        "name": "Upgrade Menu: Sen Throw"
+    },
+    {
+        "id": "705000",
+        "name": "Upgrade Menu: Lazulite Shuriken"
+    },
+    {
+        "id": "711000",
+        "name": "Upgrade Menu: Spring-load Firecracker"
+    },
+    {
+        "id": "712000",
+        "name": "Upgrade Menu: Long Spark"
+    },
+    {
+        "id": "713000",
+        "name": "Upgrade Menu: Purple Fume Spark"
+    },
+    {
+        "id": "721000",
+        "name": "Upgrade Menu: Spring-load Flame Vent"
+    },
+    {
+        "id": "722000",
+        "name": "Upgrade Menu: Okinaga's Flame Vent"
+    },
+    {
+        "id": "723000",
+        "name": "Upgrade Menu: Lazulite Sacred Flame"
+    },
+    {
+        "id": "731000",
+        "name": "Upgrade Menu: Spring-load Axe"
+    },
+    {
+        "id": "732000",
+        "name": "Upgrade Menu: Sparking Axe"
+    },
+    {
+        "id": "733000",
+        "name": "Upgrade Menu: Lazulite Axe"
+    },
+    {
+        "id": "741000",
+        "name": "Upgrade Menu: Aged Feather Mist Raven"
+    },
+    {
+        "id": "742000",
+        "name": "Upgrade Menu: Great Feather Mist Rave"
+    },
+    {
+        "id": "751000",
+        "name": "Upgrade Menu: Improved Sabimaru"
+    },
+    {
+        "id": "752000",
+        "name": "Upgrade Menu: Piercing Sabimaru"
+    },
+    {
+        "id": "753000",
+        "name": "Upgrade Menu: Lazulite Sabimaru"
+    },
+    {
+        "id": "761000",
+        "name": "Upgrade Menu: Loaded Umbrella - Magnet"
+    },
+    {
+        "id": "762000",
+        "name": "Upgrade Menu: Suzaku's Lotus Umbrella"
+    },
+    {
+        "id": "763000",
+        "name": "Upgrade Menu: Phoenix's Lilac Umbrella"
+    },
+    {
+        "id": "771000",
+        "name": "Upgrade Menu: Double Divine Abduction"
+    },
+    {
+        "id": "772000",
+        "name": "Upgrade Menu: Golden Vortex"
+    },
+    {
+        "id": "781000",
+        "name": "Upgrade Menu: Loaded Spear Thrust type"
+    },
+    {
+        "id": "782000",
+        "name": "Upgrade Menu: Loaded Spear Cleave Type"
+    },
+    {
+        "id": "783000",
+        "name": "Upgrade Menu: Spiral Spear"
+    },
+    {
+        "id": "784000",
+        "name": "Upgrade Menu: Leaping Flame"
+    },
+    {
+        "id": "791000",
+        "name": "Upgrade Menu: Mountain Echo"
+    },
+    {
+        "id": "792000",
+        "name": "Upgrade Menu: Malcontent"
+    },
+    {
+        "id": "1700000",
+        "name": "Upgrade Menu: Unknown Shuriken"
+    },
+    {
+        "id": "1710000",
+        "name": "Upgrade Menu: Unknown Firecracker"
+    },
+    {
+        "id": "1720000",
+        "name": "Upgrade Menu: Unknown Flame Barrel"
+    },
+    {
+        "id": "1730000",
+        "name": "Upgrade Menu: Unknown Loaded Axe"
+    },
+    {
+        "id": "1740000",
+        "name": "Upgrade Menu: Unknown Mist Raven"
+    },
+    {
+        "id": "1750000",
+        "name": "Upgrade Menu: Unknown Sabimaru"
+    },
+    {
+        "id": "1760000",
+        "name": "Upgrade Menu: Unknown Loaded Umbrella"
+    },
+    {
+        "id": "1770000",
+        "name": "Upgrade Menu: Unknown Divine Abduction"
+    },
+    {
+        "id": "1780000",
+        "name": "Upgrade Menu: Unknown Loaded Spear"
+    },
+    {
+        "id": "1790000",
+        "name": "Upgrade Menu: Unknown Finger Whistle"
+    },
+    {
+        "id": "2700000",
+        "name": "Upgrade Menu: Unknown Prosthetic Tool"
+    },
+    {
+        "id": "8000000",
+        "name": ""
+    },
+    {
+        "id": "8000100",
+        "name": ""
+    },
+    {
+        "id": "8000200",
+        "name": ""
+    },
+    {
+        "id": "9500000",
+        "name": ""
+    },
+    {
+        "id": "9600000",
+        "name": ""
+    },
+    {
+        "id": "9700000",
+        "name": ""
+    }
+]
