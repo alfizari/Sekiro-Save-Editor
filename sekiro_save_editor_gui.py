@@ -942,7 +942,7 @@ class SekiroSaveEditor:
         self.goods_data = {}
         
     def open_file(self):
-        path = filedialog.askopenfilename(filetypes=[("SL2 files", "*.sl2"), ("All files", "*.*")])
+        path = filedialog.askopenfilename()
         if not path:
             return
         
