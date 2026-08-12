@@ -298,6 +298,10 @@ def update_good_quantity(data, item_offset, new_quantity):
     quantity_offset = item_offset + 8
     return data[:quantity_offset] + new_quantity.to_bytes(4, 'little') + data[quantity_offset+4:]
 
+def delete_good_item(data, item_offset):
+    """Delete a good item by setting its 16-byte inventory slot to zeros"""
+    zero_slot = b'\x00' * 16  # INVENTORY.BASE_SIZE = 16
+    return data[:item_offset] + zero_slot + data[item_offset+16:]
 
 def parse_lookup(data, start_offset, end_offset):
     storage_items = []
@@ -773,32 +777,255 @@ class SekiroSaveEditor:
         setattr(self, f"{item_type}_tree", tree)
         
     def create_goods_tree(self):
-        tree_frame = ttk.Frame(self.goods_frame)
-        tree_frame.pack(fill="both", expand=True, padx=10, pady=10)
-        
-        columns = ("Item Name", "ID", "Quantity", "Edit")
+        """Create goods display with dedicated editor panel"""
+        main_frame = ttk.Frame(self.goods_frame)
+        main_frame.pack(fill="both", expand=True, padx=10, pady=10)
+
+        # Tree on the left
+        tree_frame = ttk.Frame(main_frame)
+        tree_frame.pack(side="left", fill="both", expand=True)
+
+        columns = ("Item Name", "ID", "Quantity")
         tree = ttk.Treeview(tree_frame, columns=columns, height=20)
+
         tree.column("#0", width=0, stretch=tk.NO)
         tree.column("Item Name", anchor="w", width=250)
         tree.column("ID", anchor="center", width=100)
         tree.column("Quantity", anchor="center", width=100)
-        tree.column("Edit", anchor="center", width=60)
-        
+
         tree.heading("#0", text="", anchor="w")
         tree.heading("Item Name", text="Item Name", anchor="w")
-        tree.heading("ID", text="ID", anchor="center")
+        tree.heading("ID", text="Item ID", anchor="center")
         tree.heading("Quantity", text="Quantity", anchor="center")
-        tree.heading("Edit", text="Edit", anchor="center")
-        
-        scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=tree.yview)
+
+        scrollbar = ttk.Scrollbar(
+            tree_frame,
+            orient="vertical",
+            command=tree.yview
+        )
         tree.configure(yscroll=scrollbar.set)
-        
+
         tree.pack(side="left", fill="both", expand=True)
         scrollbar.pack(side="right", fill="y")
-        tree.bind("<Double-1>", self.on_goods_double_click)
-        
+
+        # Selection handler
+        tree.bind("<<TreeviewSelect>>", self.on_goods_select)
+
         self.goods_tree = tree
         self.goods_data = {}
+
+        # =========================
+        # Editor panel on the right
+        # =========================
+
+        editor_frame = ttk.LabelFrame(
+            main_frame,
+            text="Edit Good",
+            padding=10
+        )
+        editor_frame.pack(
+            side="right",
+            fill="both",
+            padx=(10, 0)
+        )
+
+        # Item name
+        ttk.Label(
+            editor_frame,
+            text="Item Name:"
+        ).pack(anchor="w", pady=5)
+
+        self.goods_item_name = tk.StringVar()
+
+        ttk.Label(
+            editor_frame,
+            textvariable=self.goods_item_name,
+            relief="sunken",
+            width=25
+        ).pack(anchor="w", pady=5)
+
+        # Item ID
+        ttk.Label(
+            editor_frame,
+            text="Item ID:"
+        ).pack(anchor="w", pady=5)
+
+        self.goods_item_id = tk.StringVar()
+
+        ttk.Label(
+            editor_frame,
+            textvariable=self.goods_item_id,
+            relief="sunken",
+            width=25
+        ).pack(anchor="w", pady=5)
+
+        # Quantity
+        ttk.Label(
+            editor_frame,
+            text="New Quantity:"
+        ).pack(anchor="w", pady=5)
+
+        self.goods_qty_spinbox = ttk.Spinbox(
+            editor_frame,
+            from_=0,
+            to=99,
+            width=25
+        )
+        self.goods_qty_spinbox.pack(anchor="w", pady=5)
+
+        # Update button
+        ttk.Button(
+            editor_frame,
+            text="Update Quantity",
+            command=self.update_goods_quantity
+        ).pack(anchor="w", pady=10)
+
+        # Delete button
+        ttk.Button(
+            editor_frame,
+            text="Delete Item",
+            command=self.delete_selected_good
+        ).pack(anchor="w", pady=5)
+
+    def update_goods_quantity(self):
+        """Update the selected good quantity"""
+
+        if not hasattr(self, '_current_goods_iid'):
+            messagebox.showwarning(
+                "Warning",
+                "No item selected"
+            )
+            return
+
+        try:
+            new_qty = int(self.goods_qty_spinbox.get())
+
+            if new_qty < 0 or new_qty > 99:
+                messagebox.showerror(
+                    "Error",
+                    "Quantity must be between 0 and 99"
+                )
+                return
+
+            iid = self._current_goods_iid
+
+            offset = self.goods_data[iid]["offset"]
+
+            self.current_data = update_good_quantity(
+                self.current_data,
+                offset,
+                new_qty
+            )
+
+            # Update internal data
+            self.goods_data[iid]["current_qty"] = new_qty
+
+            # Update tree
+            values = self.goods_tree.item(iid)["values"]
+
+            self.goods_tree.item(
+                iid,
+                values=(
+                    values[0],
+                    values[1],
+                    new_qty
+                )
+            )
+
+            messagebox.showinfo(
+                "Success",
+                f"Quantity updated to {new_qty}"
+            )
+
+        except ValueError:
+            messagebox.showerror(
+                "Error",
+                "Invalid quantity value"
+            )
+
+    def on_goods_select(self, event):
+        """Handle goods tree selection"""
+        selection = self.goods_tree.selection()
+
+        if not selection:
+            return
+
+        iid = selection[0]
+
+        if iid not in self.goods_data:
+            return
+
+        data = self.goods_data[iid]
+
+        self.goods_item_name.set(data["name"])
+        self.goods_item_id.set(str(data["item_id"]))
+
+        self.goods_qty_spinbox.delete(0, tk.END)
+        self.goods_qty_spinbox.insert(0, str(data["current_qty"]))
+
+        self._current_goods_iid = iid
+
+    def delete_selected_good(self):
+        """Delete the currently selected good"""
+
+        if not hasattr(self, '_current_goods_iid'):
+            messagebox.showwarning(
+                "Warning",
+                "No item selected"
+            )
+            return
+
+        iid = self._current_goods_iid
+
+        if iid not in self.goods_data:
+            messagebox.showwarning(
+                "Warning",
+                "Invalid selection"
+            )
+            return
+
+        item_data = self.goods_data[iid]
+        item_name = item_data["name"]
+
+        if not messagebox.askyesno(
+            "Confirm Deletion",
+            f"Delete '{item_name}'?"
+        ):
+            return
+
+        try:
+            offset = item_data["offset"]
+
+            # Zero the 16-byte inventory slot
+            self.current_data = delete_good_item(
+                self.current_data,
+                offset
+            )
+
+            # Remove from tree
+            self.goods_tree.delete(iid)
+
+            # Remove from data
+            del self.goods_data[iid]
+
+            # Clear editor
+            self.goods_item_name.set("")
+            self.goods_item_id.set("")
+            self.goods_qty_spinbox.delete(0, tk.END)
+
+            if hasattr(self, '_current_goods_iid'):
+                del self._current_goods_iid
+
+            messagebox.showinfo(
+                "Success",
+                f"'{item_name}' deleted successfully"
+            )
+
+        except Exception as e:
+            messagebox.showerror(
+                "Error",
+                f"Failed to delete item: {str(e)}"
+            )
         
     def create_storage_tree(self):
         """Create storage display with inline quantity editing"""
@@ -888,59 +1115,62 @@ class SekiroSaveEditor:
             messagebox.showinfo("Success", f"Quantity updated to {new_qty}")
         except ValueError:
             messagebox.showerror("Error", "Invalid quantity value")
+        
+    def show_goods_context_menu(self, event):
+        """Show right-click context menu for goods"""
+        selection = self.goods_tree.selection()
+        if not selection:
+            return
+        
+        iid = selection[0]
+        if iid not in self.goods_data:
+            return
+        
+        # Create context menu
+        context_menu = tk.Menu(self.root, tearoff=0)
+        context_menu.add_command(label="Edit Quantity", command=lambda: self.on_goods_double_click(None))
+        context_menu.add_command(label="Delete Item", command=lambda: self.delete_good(iid))
+        
+        try:
+            context_menu.tk_popup(event.x_root, event.y_root)
+        finally:
+            context_menu.grab_release()
+    
+    def on_delete_key_pressed(self, event):
+        """Handle Delete key press on goods tree"""
+        selection = self.goods_tree.selection()
+        if selection:
+            iid = selection[0]
+            if iid in self.goods_data:
+                self.delete_good(iid)
+    
+    def delete_good(self, iid):
+        """Delete a good item from inventory"""
+        if iid not in self.goods_data:
+            messagebox.showwarning("Warning", "Invalid selection")
+            return
+        
+        # Get item info
+        item_data = self.goods_data[iid]
+        item_name = self.goods_tree.item(iid)["values"][0]
+        
+        # Confirm deletion
+        if not messagebox.askyesno("Confirm Deletion", f"Delete '{item_name}'?"):
+            return
+        
+        try:
+            offset = item_data["offset"]
+            # Delete by setting the 16-byte slot to zeros
+            self.current_data = delete_good_item(self.current_data, offset)
+            
+            # Remove from display
+            self.goods_tree.delete(iid)
+            del self.goods_data[iid]
+            
+            messagebox.showinfo("Success", f"'{item_name}' deleted successfully")
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to delete item: {str(e)}")
 
-    def create_items_tree(self, parent, item_type):
-        tree_frame = ttk.Frame(parent)
-        tree_frame.pack(fill="both", expand=True, padx=10, pady=10)
-        
-        columns = ("Item Name", "ID", "Quantity")
-        tree = ttk.Treeview(tree_frame, columns=columns, height=20)
-        tree.column("#0", width=0, stretch=tk.NO)
-        tree.column("Item Name", anchor="w", width=300)
-        tree.column("ID", anchor="center", width=100)
-        tree.column("Quantity", anchor="center", width=100)
-        
-        tree.heading("#0", text="", anchor="w")
-        tree.heading("Item Name", text="Item Name", anchor="w")
-        tree.heading("ID", text="ID", anchor="center")
-        tree.heading("Quantity", text="Quantity", anchor="center")
-        
-        scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=tree.yview)
-        tree.configure(yscroll=scrollbar.set)
-        
-        tree.pack(side="left", fill="both", expand=True)
-        scrollbar.pack(side="right", fill="y")
-        
-        setattr(self, f"{item_type}_tree", tree)
-        
-    def create_goods_tree(self):
-        tree_frame = ttk.Frame(self.goods_frame)
-        tree_frame.pack(fill="both", expand=True, padx=10, pady=10)
-        
-        columns = ("Item Name", "ID", "Quantity", "Edit")
-        tree = ttk.Treeview(tree_frame, columns=columns, height=20)
-        tree.column("#0", width=0, stretch=tk.NO)
-        tree.column("Item Name", anchor="w", width=250)
-        tree.column("ID", anchor="center", width=100)
-        tree.column("Quantity", anchor="center", width=100)
-        tree.column("Edit", anchor="center", width=60)
-        
-        tree.heading("#0", text="", anchor="w")
-        tree.heading("Item Name", text="Item Name", anchor="w")
-        tree.heading("ID", text="ID", anchor="center")
-        tree.heading("Quantity", text="Quantity", anchor="center")
-        tree.heading("Edit", text="Edit", anchor="center")
-        
-        scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=tree.yview)
-        tree.configure(yscroll=scrollbar.set)
-        
-        tree.pack(side="left", fill="both", expand=True)
-        scrollbar.pack(side="right", fill="y")
-        tree.bind("<Double-1>", self.on_goods_double_click)
-        
-        self.goods_tree = tree
-        self.goods_data = {}
-        
     def open_file(self):
         path = filedialog.askopenfilename()
         if not path:
@@ -1095,12 +1325,17 @@ class SekiroSaveEditor:
         for gaitem, item_id, qty, idx, offset in goods:
             name = item_lookup.get(item_id, f"Unknown ({item_id})")
             iid = self.goods_tree.insert("", "end", values=(name, item_id, qty, "✎"))
-            self.goods_data[iid] = {"offset": offset, "item_id": item_id, "current_qty": qty}
+            self.goods_data[iid] = {
+    "offset": offset,
+    "item_id": item_id,
+    "current_qty": qty,
+    "name": name
+}
 
         for gaitem, item_id, qty, idx, offset in goods_key:
             name = item_lookup.get(item_id, f"Unknown ({item_id})")
             iid = self.goods_tree.insert("", "end", values=(name, item_id, qty, "✎"))
-            self.goods_data[iid] = {"offset": offset, "item_id": item_id, "current_qty": qty}
+            self.goods_data[iid] = {"offset": offset, "item_id": item_id, "current_qty": qty, "name": name}
         
         # Load storage
         self.storage_data = {}
@@ -1110,11 +1345,11 @@ class SekiroSaveEditor:
             self.storage_data[iid] = {"offset": offset, "item_id": item_id, "current_qty": qty, "name": name}
     
     def on_goods_double_click(self, event):
-        item = self.goods_tree.selection()
-        if not item:
+        selection = self.goods_tree.selection()
+        if not selection:
             return
         
-        iid = item[0]
+        iid = selection[0]
         if iid not in self.goods_data:
             return
         
